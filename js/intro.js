@@ -32,7 +32,7 @@ let scene, camera, renderer, cube, geometry;
       geometry = new THREE.BoxGeometry(1, 1, 1);
       var cubeMaterials = [
         new THREE.MeshBasicMaterial({ map: new THREE.TextureLoader().load('img/4.png'), side: THREE.DoubleSide }),
-        new THREE.MeshBasicMaterial({ map: new THREE.TextureLoader().load('img/2.png'), side: THREE.DoubleSide }),
+        new THREE.MeshBasicMaterial({ map: new THREE.TextureLoader().load('img/7.png'), side: THREE.DoubleSide }),
         new THREE.MeshBasicMaterial({ map: new THREE.TextureLoader().load('img/5.png'), side: THREE.DoubleSide }),
         new THREE.MeshBasicMaterial({ map: new THREE.TextureLoader().load('img/6.png'), side: THREE.DoubleSide }),
         new THREE.MeshBasicMaterial({ map: new THREE.TextureLoader().load('img/1.png'), side: THREE.DoubleSide }),
